@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{A6F3A9D8-AC3E-4B33-8FA5-1386B518B78D}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{C73D42EB-1B3A-46D2-9FF1-4D505205095B}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\WildscreenAnimalsAPI-WAWS-dev.json = PublishScripts\Configurations\WildscreenAnimalsAPI-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WildscreenLib", "WildscreenLib\WildscreenLib.csproj", "{19C1C283-2FFA-4C63-AD3D-727F2C879E8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WildscreenAnimalsAPI", "WildscreenAnimalsAPI\WildscreenAnimalsAPI.csproj", "{E8019A8E-3A5A-4541-A825-DA07F40D8614}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WildscreenFlickProcessor", "WildscreenFlickProcessor\WildscreenFlickProcessor.csproj", "{3E582ACB-859C-4C57-A67F-2C4044F96968}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{72C84C9A-A61F-4BBC-8AEC-0913B18400A2}"
+	ProjectSection(SolutionItems) = preProject
+		DB Tables.sql = DB Tables.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19C1C283-2FFA-4C63-AD3D-727F2C879E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C1C283-2FFA-4C63-AD3D-727F2C879E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C1C283-2FFA-4C63-AD3D-727F2C879E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C1C283-2FFA-4C63-AD3D-727F2C879E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8019A8E-3A5A-4541-A825-DA07F40D8614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8019A8E-3A5A-4541-A825-DA07F40D8614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8019A8E-3A5A-4541-A825-DA07F40D8614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8019A8E-3A5A-4541-A825-DA07F40D8614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E582ACB-859C-4C57-A67F-2C4044F96968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E582ACB-859C-4C57-A67F-2C4044F96968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E582ACB-859C-4C57-A67F-2C4044F96968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E582ACB-859C-4C57-A67F-2C4044F96968}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C73D42EB-1B3A-46D2-9FF1-4D505205095B} = {A6F3A9D8-AC3E-4B33-8FA5-1386B518B78D}
+	EndGlobalSection
+EndGlobal

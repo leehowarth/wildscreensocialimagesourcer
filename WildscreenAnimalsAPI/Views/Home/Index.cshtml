@@ -1,0 +1,15 @@
+﻿@model dynamic 
+<div class="jumbotron">
+    <h1>Top 10 Images for Upvotes</h1>
+</div>
+
+@foreach (var item in @Model)
+{
+    var image = (WildscreenLib.AnimalImage)item.GetType().GetProperty("Image").GetValue(item, null);
+    var animal = (WildscreenLib.Animal)item.GetType().GetProperty("Animal").GetValue(item, null);
+
+    <div class="row">
+        @animal.Name
+        <img src="@image.ImageUrl" />
+    </div>
+}
